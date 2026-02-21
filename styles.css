@@ -1,0 +1,178 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+    font-family: "Young Serif";
+    src: url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}
+
+body {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.0;
+    color: hsl(30, 10%, 34%);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.box1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 1.0;
+    color: hsl(24, 5%, 18%);
+}
+
+h1 + p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'Outfit';
+}
+
+.box2 {
+    background-color: hsl(330, 100%, 98%);
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box2 > h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: hsl(332, 51%, 32%)
+}
+
+span {
+    font-weight: bold;
+    color: hsl(24, 5%, 18%);
+}
+.box2 ul {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Outfit';
+    padding: 10px 0 10px 30px;
+}
+
+.box3 {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin: auto;
+}
+
+.box3 ul {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Outfit';
+    padding: 10px 0 10px 30px;
+}
+
+.box4 {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin: auto;
+}
+
+.box4 ol {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'Outfit';
+    padding: 10px 0 10px 30px;
+}
+
+.box5 {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin: auto;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 3rem;
+}
+
+.table p {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin: 0;
+}
+
+.table p:nth-of-type(odd) {
+  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
+}
+
+.table p:nth-of-type(even) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.table p:nth-last-of-type(-n+2) {
+  border-bottom: none;
+}
+hr {
+    display: contents;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%); 
+}
+
+hr {
+    margin-top: 2rem;
+}
+@media (min-width: 601px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Centers the card vertically */
+        background-color: hsl(30, 18%, 87%);
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 450px; 
+        background-color: white;
+        border-radius: 20px;
+        padding-bottom: 2rem;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    }
+
+    img {
+        width: 90%;
+        border-radius: 10px;
+        align-self: center;
+        margin-top: 2rem;
+    }
+}
