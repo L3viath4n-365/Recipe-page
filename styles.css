@@ -55,7 +55,7 @@ h1 + p {
     border-radius: 10px;
 }
 
-.box2 > h3 {
+.box2 > p {
     font-size: 2rem;
     font-weight: normal;
     color: hsl(332, 51%, 32%)
@@ -158,7 +158,7 @@ hr {
         margin: 0;
     }
 
-    .container {
+    main {
         display: flex;
         flex-direction: column;
         width: 100%;
